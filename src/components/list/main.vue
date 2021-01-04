@@ -2,7 +2,7 @@
   <div class="v-list">
     <slot/>
     <div class="v-list-date">
-      <div class="v-list-date-label">当前时间：</div>
+      <div class="v-list-date-label">当前时间test：</div>
       <div class="v-list-date-text">{{date}}</div>
     </div>
   </div>

@@ -6,7 +6,7 @@
     </div>
     <router-view/> -->
     <h1>vue-rollup-component-template</h1>
-    <p>轻松进行组件开发、发布、展示</p>
+    <p>轻松进行组件开发、发布、展示使用rollup</p>
     <v-list>
       <v-list-item :list="list"></v-list-item>
     </v-list>
