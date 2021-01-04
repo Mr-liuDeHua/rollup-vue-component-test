@@ -1,0 +1,15 @@
+{
+    "presets": [
+        ["env", { "modules": false }],
+        "stage-3"
+    ],
+    "plugins": [
+    // 设置 root  npm i  -D babel-plugin-module-resolver
+        [
+            "module-resolver",
+            {
+                "root": ["src/"]
+            }
+        ]
+    ]
+  }
