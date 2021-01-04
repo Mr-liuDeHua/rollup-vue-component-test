@@ -122,24 +122,23 @@ rollup-vueComponent-test
 1.  yarn
 2.  yarn build
 
-查看演示 example 或者 project-one 具体查看
+
+#### 查看演示 example 或者 project-one 具体查看
 1.  cd example    //打开 demo 文件夹
 2.  npm i   // 安装依赖
 3.  npm run dev  // 运行演示
 
-
-
-
-
 #### 使用说明
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+1.  本插件仅供个人研究rollup 和vue的版本兼容;
+2.  rollup 和 webpack 打包vue 的数度比较
+3.  补充说明： 如果有什么不对的可以指正，欢迎各位指导;
 
 #### 参与贡献
 
 1.  Mr.liu
 
 
-###  参考文档：https://github.com/blryli/vue-rollup-component-template
+
+
+######  参考文档：https://github.com/blryli/vue-rollup-component-template
