@@ -8,9 +8,6 @@
   "scripts": {
     "clean": "rm -rf node_modules",
     "del": "rimraf dist",
-    "build:test": "rollup -c ",
-    "build:prod": "cross-env NODE_ENV=production rollup -c",
-    "build:dev": "cross-env NODE_ENV=development rollup -c",
     "build": "npm run build:browser && npm run build:es && npm run build:umd",
     "build:browser": "rollup --config build/rollup.config.browser.js",
     "build:es": "rollup --config build/rollup.config.es.js",
@@ -23,9 +20,17 @@
     "rollup",
     "rollupjs",
     "template",
-    "component"
+    "component",
+    "test"
   ],
-  "repository": "https://gitee.com/lwieui/rollup-vue-component-test.git",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mr-liuDeHua/rollup-vue-component-test.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Mr-liuDeHua/rollup-vue-component-test/issues"
+  },
+  "homepage": "https://github.com/Mr-liuDeHua/rollup-vue-component-test#readme",
   "author": "Mr.liu <17621944562@163.com>",
   "license": "MIT",
   "devDependencies": {
