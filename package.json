@@ -1,6 +1,6 @@
 {
   "name": "rollup-vuecomponent-test",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "基于vue和rollup打包测试性能webpack对比",
   "main": "dist/rollup-vue-component-test.umd.js",
   "module": "dist/rollup-vue-component-test.esm.js",
