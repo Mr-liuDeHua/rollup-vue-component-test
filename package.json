@@ -1,11 +1,12 @@
 {
   "name": "rollup-vuecomponent-test",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "基于vue和rollup打包测试性能webpack对比",
   "main": "dist/rollup-vue-component-test.umd.js",
   "module": "dist/rollup-vue-component-test.esm.js",
   "unpkg": "dist/rollup-vue-component-test.min.js",
   "scripts": {
+    "sh":"bash publish.sh",
     "clean": "rm -rf node_modules",
     "del": "rimraf dist",
     "build": "npm run build:browser && npm run build:es && npm run build:umd",
